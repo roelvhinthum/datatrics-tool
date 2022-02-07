@@ -1,8 +1,8 @@
 import axios, { AxiosResponse, AxiosError } from "axios";
-import { StatusCodes } from "http-status-codes";
-import BadRequestException from "./exceptions/badRequest.exception";
-import HttpException from "./exceptions/httpException";
-import InternalServerException from "./exceptions/internalServer.exception";
+// import { StatusCodes } from "http-status-codes";
+// import BadRequestException from "./exceptions/badRequest.exception";
+// import HttpException from "./exceptions/httpException";
+// import InternalServerException from "./exceptions/internalServer.exception";
 
 class AxiosRequestHandler {
   private static api = axios.create({
