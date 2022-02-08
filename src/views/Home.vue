@@ -127,7 +127,7 @@ export default class Home extends Vue {
       "2021-05-14",
       "2021-05-20",
     ).then((res) => {
-      this.status=res!.data;
+      // this.status=res!.data;
       if (res?.statusText) {
         this.status = res?.statusText;
       }
